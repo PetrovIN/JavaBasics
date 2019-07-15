@@ -21,6 +21,7 @@ public class Warmup1 {  // используй форматирование ко�
 
         return str.charAt(str.length() - 1) + str + str.charAt(str.length() - 1);
     }
+
     public boolean or35(int n) {
         return n % 3 == 0 || n % 5 == 0;
     } // лишние скобки
@@ -28,6 +29,7 @@ public class Warmup1 {  // используй форматирование ко�
     public String front22(String str) {
         return str.length() >= 2 ? str.substring(0, 2) + str + str.substring(0, 2) : str + str + str; // лишние скобки
     }
+
     public boolean startHi(String str) {
         return (str.length() >= 2 && str.substring(0, 2).equals("hi"));
     } // лишние скобки
